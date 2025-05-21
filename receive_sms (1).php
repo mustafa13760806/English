@@ -1,6 +1,6 @@
 <?php
-$sender = $_POST['sender'] ?? 'unknown';
-$message = $_POST['message'] ?? '';
+$sender = $_POST['sender'];
+$message = $_POST['message'];
 
 if (!empty($message)) {
     // فرض: اتصال به پایگاه‌داده برقرار شده
